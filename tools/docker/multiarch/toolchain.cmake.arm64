@@ -1,0 +1,7 @@
+set(CMAKE_SYSTEM_NAME Linux)
+set(CMAKE_SYSTEM_VERSION 1)
+# this might be aarch64
+set(CMAKE_SYSTEM_PROCESSOR arm64)
+
+set(CMAKE_C_COMPILER /usr/bin/arm64-linux-gnu-gcc)
+set(CMAKE_CROSSCOMPILING_EMULATOR /opt/emulators/arm64-linux-gnu.sh)

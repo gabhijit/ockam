@@ -48,7 +48,7 @@ defmodule Ockam.Hub.MixProject do
       {:ockam, path: "../_ockam"},
       {:ockam_vault_software, path: "../ockam_vault_software"},
       {:telemetry, "~> 0.4.2"},
-      {:ex_doc, "~> 0.23.0", only: :dev, runtime: false},
+      {:ex_doc, "~> 0.24.2", only: :dev, runtime: false},
       {:credo, "~> 1.5", only: [:dev, :test], runtime: false},
       {:dialyxir, "~> 1.1", only: [:dev], runtime: false}
     ]

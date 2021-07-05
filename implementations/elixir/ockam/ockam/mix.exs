@@ -46,7 +46,7 @@ defmodule Ockam.MixProject do
   defp deps do
     [
       {:ockam_vault_software, path: "../ockam_vault_software", optional: true},
-      {:telemetry, "~> 0.4.2", optional: true},
+      {:telemetry, "~> 1.0.0", optional: true},
       {:ex_doc, "~> 0.23.0", only: :dev, runtime: false},
       {:credo, "~> 1.5", only: [:dev, :test], runtime: false},
       {:dialyxir, "~> 1.1", only: [:dev], runtime: false}
